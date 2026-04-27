@@ -59,19 +59,25 @@ Crie um arquivo .env na raiz do projeto e adicione as seguintes chaves:
 Plaintext
 
 FLASK_KEY=sua_chave_secreta_aqui
+
 DATABASE_URL=sqlite:///posts.db
+
 FLASK_DEBUG=1
+
 🏃 Como rodar a aplicação
+
 Com o ambiente virtual ativo e o .env configurado, execute:
 
 Bash
 
 python main.py
+
 O servidor iniciará em http://127.0.0.1:5002.
 
 Nota sobre Admin: O primeiro usuário cadastrado no sistema (ID 1) terá permissões de administrador para gerenciar postagens.
 
 🏗️ Estrutura do Banco de Dados
+
 O banco de dados possui três tabelas principais relacionadas:
 
 Users: Armazena informações dos usuários.
