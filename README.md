@@ -1,4 +1,4 @@
-📝 Story - Blog Engine
+📝 Murilo-Blog - Blog Engine
 Este é um sistema de gerenciamento de blog completo, desenvolvido em Python com o framework Flask. O projeto conta com autenticação de usuários, níveis de acesso (Admin), sistema de comentários com integração de avatars e um editor de texto rico para as postagens.
 
 🚀 Funcionalidades
@@ -33,10 +33,10 @@ Antes de começar, você precisará ter o Python instalado em sua máquina.
 Bash
 
 # Clone o repositório
-git clone https://github.com/seu-usuario/Story.git
+git clone https://github.com/murilo-suhett/Murilo-Blog.git
 
 # Entre na pasta
-cd Story
+cd Murilo-Blog
 
 # Crie um ambiente virtual
 python -m venv .venv
