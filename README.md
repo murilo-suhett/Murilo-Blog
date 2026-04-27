@@ -1,7 +1,9 @@
 📝 Murilo-Blog - Blog Engine
+
 Este é um sistema de gerenciamento de blog completo, desenvolvido em Python com o framework Flask. O projeto conta com autenticação de usuários, níveis de acesso (Admin), sistema de comentários com integração de avatars e um editor de texto rico para as postagens.
 
 🚀 Funcionalidades
+
 Autenticação Completa: Cadastro e login de usuários com senhas criptografadas via Werkzeug.
 
 Controle de Acesso (RBAC): Decorador personalizado para restringir criação, edição e exclusão de posts apenas ao administrador (ID 1).
@@ -17,6 +19,7 @@ Avatares Dinâmicos: Uso do Flask-Gravatar para exibir fotos de perfil baseadas 
 Configuração via Ambiente: Totalmente configurado via variáveis de ambiente (.env).
 
 🛠️ Tecnologias Utilizadas
+
 Linguagem: Python 3.8+
 
 Framework Web: Flask
@@ -28,6 +31,7 @@ Frontend: Flask-Bootstrap5 e Jinja2
 Formulários: Flask-WTF
 
 📋 Pré-requisitos
+
 Antes de começar, você precisará ter o Python instalado em sua máquina.
 
 Bash
